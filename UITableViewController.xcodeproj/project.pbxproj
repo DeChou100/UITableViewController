@@ -14,13 +14,13 @@
 		CCF8613019B4534C0040159A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF8612F19B4534C0040159A /* main.m */; };
 		CCF8613419B4534C0040159A /* UTVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF8613319B4534C0040159A /* UTVCAppDelegate.m */; };
 		CCF8613719B4534C0040159A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF8613519B4534C0040159A /* Main.storyboard */; };
-		CCF8613A19B4534C0040159A /* UTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF8613919B4534C0040159A /* UTVCViewController.m */; };
 		CCF8613C19B4534C0040159A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF8613B19B4534C0040159A /* Images.xcassets */; };
 		CCF8614319B4534C0040159A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF8614219B4534C0040159A /* XCTest.framework */; };
 		CCF8614419B4534C0040159A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF8612319B4534C0040159A /* Foundation.framework */; };
 		CCF8614519B4534C0040159A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF8612719B4534C0040159A /* UIKit.framework */; };
 		CCF8614D19B4534C0040159A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF8614B19B4534C0040159A /* InfoPlist.strings */; };
 		CCF8614F19B4534C0040159A /* UITableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF8614E19B4534C0040159A /* UITableViewControllerTests.m */; };
+		CCF8615A19B457AE0040159A /* UTVCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF8615919B457AE0040159A /* UTVCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		CCF8613219B4534C0040159A /* UTVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTVCAppDelegate.h; sourceTree = "<group>"; };
 		CCF8613319B4534C0040159A /* UTVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTVCAppDelegate.m; sourceTree = "<group>"; };
 		CCF8613619B4534C0040159A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCF8613819B4534C0040159A /* UTVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTVCViewController.h; sourceTree = "<group>"; };
-		CCF8613919B4534C0040159A /* UTVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTVCViewController.m; sourceTree = "<group>"; };
 		CCF8613B19B4534C0040159A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CCF8614119B4534C0040159A /* UITableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF8614219B4534C0040159A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CCF8614A19B4534C0040159A /* UITableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		CCF8614C19B4534C0040159A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCF8614E19B4534C0040159A /* UITableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerTests.m; sourceTree = "<group>"; };
+		CCF8615819B457AE0040159A /* UTVCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTVCTableViewController.h; sourceTree = "<group>"; };
+		CCF8615919B457AE0040159A /* UTVCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTVCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				CCF8613219B4534C0040159A /* UTVCAppDelegate.h */,
 				CCF8613319B4534C0040159A /* UTVCAppDelegate.m */,
 				CCF8613519B4534C0040159A /* Main.storyboard */,
-				CCF8613819B4534C0040159A /* UTVCViewController.h */,
-				CCF8613919B4534C0040159A /* UTVCViewController.m */,
+				CCF8615819B457AE0040159A /* UTVCTableViewController.h */,
+				CCF8615919B457AE0040159A /* UTVCTableViewController.m */,
 				CCF8613B19B4534C0040159A /* Images.xcassets */,
 				CCF8612A19B4534C0040159A /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF8615A19B457AE0040159A /* UTVCTableViewController.m in Sources */,
 				CCF8613419B4534C0040159A /* UTVCAppDelegate.m in Sources */,
-				CCF8613A19B4534C0040159A /* UTVCViewController.m in Sources */,
 				CCF8613019B4534C0040159A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

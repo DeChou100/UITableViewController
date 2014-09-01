@@ -1,5 +1,5 @@
 //
-//  UTVCViewController.h
+//  UTVCTableViewController.h
 //  UITableViewController
 //
 //  Created by D.C. on 9/1/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UTVCViewController : UIViewController
+@interface UTVCTableViewController : UITableViewController
+
 
 @end
